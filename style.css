@@ -102,28 +102,32 @@ header a:hover{
 .Info p{
     font-size: 20px;
     line-height: 1.5;
+    padding:0 30px 0 30px;
 }
 
 
 /*SportType*/
 .SportType{
-    height: 300px;
+    height: 400px;
     width:100%;
     background-image:linear-gradient(to right, var(--main-color-green), var(--main-color-blue));
     text-align: center;
 }
 .SportType h2{
-    padding:20px 0 20px 0;
+    padding:30px 0 20px 0;
     line-height: 100px;
     color:var(--other-color-white);
     font-size: 60px;
 }
-.SportTypePics{
+.SportTypePics, .SportTypePics2{
     display: flex; /* 讓圖片水平排列 */
     justify-content: center; /* 讓圖片置中 */
     gap: 20px; /* 設定圖片之間的間距 */
+    padding: 10px 0 10px 0;
 }
-.SportTypePics img{
+.SportType img{
+    width: 100px;
+    height: 100px;
     border: 2px solid var(--other-color-white);
     border-radius: 20px;
     padding:5px;
@@ -146,15 +150,36 @@ header a:hover{
     }
     .Info h2{
         font-size: 40px;
-        padding:0 20px 0 20px;
+        padding: 20px 20px 0 20px;
         margin-bottom: 10px;
     }
     .Info p{
         font-size: 18px;
-        padding:0 20px 0 20px;
+        padding:0 20px 20px 20px;
     }
     .Intro img{
-        width: 168px;
-        height: 282px;
+        width: 170px;
+        height: 280px;
+        margin:0 10px 0 10px;
     }
+
+    .SportType{
+        height: 250px;
+    }
+    .SportType h2{
+        padding:10px 0 0 0;
+        line-height: 100px;
+        font-size: 40px;
+    }
+    .SportTypePics, .SportTypePics2{
+        gap: 10px; /* 設定圖片之間的間距 */
+        padding: 0 0 10px 0;
+    }
+    .SportType img{
+        width: 50px;
+        height: 50px;
+        border: 2px solid var(--other-color-white);
+        border-radius: 10px;
+    }
+
 }
