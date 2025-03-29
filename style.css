@@ -118,6 +118,11 @@ header a:hover{
     line-height: 100px;
     color:var(--other-color-white);
     font-size: 60px;
+    text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
 }
 .SportTypePics, .SportTypePics2{
     display: flex; /* 讓圖片水平排列 */
