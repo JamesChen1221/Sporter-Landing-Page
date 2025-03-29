@@ -1,0 +1,103 @@
+/*Global Styles*/
+@font-face {
+    font-family: 'Bubble';
+    src: url('Font/jf-openhuninn-1.1.ttf') format('truetype'),
+}
+:root{
+    --font-main: Bubble, sans-serif;
+    --main-color-green: rgb(78,167,46);
+    --second-color-green: rgb(60, 125, 37);
+    --main-color-blue: rgb(78,149,217);
+    --other-color-white: White;
+    --other-color-black: black;
+    --main-color-red: red;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-main);
+    background-color: antiquewhite;
+}
+
+
+/*Header*/
+header{
+    background-color: var(--other-color-white);
+    height: 100px;
+    width: 100%;
+    display:flex;
+}
+h1{
+    position:absolute;
+    left:120px;
+    top:0;
+    line-height: 100px;
+    text-indent:-1000px;
+
+    /*Logo*/
+    background-size: contain;
+    background-image: url(Images/SporterLogoT.png);
+    background-repeat:no-repeat;
+    background-position:absolute;
+    top:12px;
+    left: 80px;
+    width: 210px;
+}
+
+header a{
+
+    background-color: var(--main-color-green);
+    position:absolute;
+    right:5vw;
+    align-self:center;
+    
+    text-align: center;
+    padding:16px;
+    color:var(--other-color-white);
+    text-decoration: none;
+}
+
+header a:hover{
+    background-color: var(--second-color-green);
+}
+
+
+/*Intro*/
+.Intro{
+    height: 600px;
+    width:100%;
+    background-image:linear-gradient(to top, var(--other-color-white), var(--main-color-green));
+    display:flex;
+}
+.pic{
+    width:40%;
+    background-image:linear-gradient(to top, var(--other-color-white), var(--main-color-blue));
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Info{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Info h2{
+    font-size: 60px;
+    color:var(--other-color-white);
+    text-shadow: 
+     -1px -1px 0 black,  
+      1px -1px 0 black,
+     -1px  1px 0 black,
+      1px  1px 0 black;
+    margin-bottom: 30px;
+}
+.Info p{
+    font-size: 20px;
+    line-height: 1.5;
+}
