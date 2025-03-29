@@ -10,7 +10,7 @@
     --main-color-blue: rgb(78,149,217);
     --other-color-white: White;
     --other-color-black: black;
-    --main-color-red: red;
+    --other-color-red: red;
 }
 * {
     margin: 0;
@@ -46,7 +46,6 @@ h1{
     left: 80px;
     width: 210px;
 }
-
 header a{
 
     background-color: var(--main-color-green);
@@ -59,7 +58,6 @@ header a{
     color:var(--other-color-white);
     text-decoration: none;
 }
-
 header a:hover{
     background-color: var(--second-color-green);
 }
@@ -72,7 +70,7 @@ header a:hover{
     background-image:linear-gradient(to top, var(--other-color-white), var(--main-color-green));
     display:flex;
 }
-.pic{
+.IntroPic{
     width:40%;
     background-image:linear-gradient(to top, var(--other-color-white), var(--main-color-blue));
     display:flex;
@@ -100,4 +98,29 @@ header a:hover{
 .Info p{
     font-size: 20px;
     line-height: 1.5;
+}
+
+
+/*SportType*/
+.SportType{
+    height: 300px;
+    width:100%;
+    background-image:linear-gradient(to right, var(--main-color-green), var(--main-color-blue));
+    text-align: center;
+}
+.SportType h2{
+    padding:20px 0 20px 0;
+    line-height: 100px;
+    color:var(--other-color-white);
+    font-size: 60px;
+}
+.SportTypePics{
+    display: flex; /* 讓圖片水平排列 */
+    justify-content: center; /* 讓圖片置中 */
+    gap: 20px; /* 設定圖片之間的間距 */
+}
+.SportTypePics img{
+    border: 2px solid var(--other-color-white);
+    border-radius: 20px;
+    padding:5px;
 }
