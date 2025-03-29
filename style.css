@@ -47,7 +47,6 @@ h1{
     width: 210px;
 }
 header a{
-
     background-color: var(--main-color-green);
     position:absolute;
     right:5vw;
@@ -98,6 +97,7 @@ header a:hover{
      -1px  1px 0 black,
       1px  1px 0 black;
     margin-bottom: 30px;
+    padding-left: 20px;
 }
 .Info p{
     font-size: 20px;
