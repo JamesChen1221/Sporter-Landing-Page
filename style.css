@@ -4,7 +4,7 @@
     src: url('Font/jf-openhuninn-1.1.ttf') format('truetype'),
 }
 :root{
-    --font-main: Bubble, sans-serif;
+    --font-main:  sans-serif;
     --main-color-green: rgb(78,167,46);
     --second-color-green: rgb(60, 125, 37);
     --main-color-blue: rgb(78,149,217);
@@ -137,6 +137,15 @@ header a:hover{
     border-radius: 20px;
     padding:5px;
 }
+
+
+/*揪運動介紹*/
+.CreateActs{
+    background-color: var(--other-color-white);
+    display: flex;
+}
+
+
 
 
 
